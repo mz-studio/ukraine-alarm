@@ -30,7 +30,7 @@ OpenClaw скіл для отримання інформації про пові
 #### Варіант А: Автоматичне встановлення
 
 ```bash
-cd /Users/mykola.zapeka/Documents/projects/skills/ualerts/skills/ukraine-alarm
+cd /ukraine-alarm
 ./install.sh
 ```
 
@@ -281,7 +281,7 @@ sudo yum install curl
 Для оновлення скіла:
 
 ```bash
-cd /Users/mykola.zapeka/Documents/projects/skills/ualerts/skills/ukraine-alarm
+cd /ukraine-alarm
 git pull
 ./install.sh
 ```
@@ -297,10 +297,7 @@ rm -rf ~/.openclaw/workspace/skills/ukraine-alarm
 Також видаліть секцію `ukraine-alarm` з `~/.openclaw/openclaw.json`.
 
 ## Підтримка
-
-- 📚 Документація API: https://api.ukrainealarm.com/swagger/index.html
 - 🔑 Отримати API ключ: https://api.ukrainealarm.com
-- 📧 Email підтримки: support@stfalcon.com
 - 🐛 Повідомити про помилку: створіть issue
 
 ## Ліцензія
